@@ -4646,12 +4646,12 @@ h6 {
   font-size: 20px;
   color: #ea5267;
   text-transform: uppercase;
-  /* margin-bottom: 20px; */
+  margin-bottom: 120px;
   font-weight: bolder;
 }
 
 .cntct {
-  margin-bottom: 30px;
+  margin-bottom: 200px;
   padding-left: 15px;
 }
 
@@ -4722,10 +4722,10 @@ h6 {
 
 #logo {
   display: block;
+  margin-right: 0;
   margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-  margin-top: 40px;
+  width: 50%;
+  margin-bottom: 75px;
   border-radius: 3%;
   transition: 0.3s;
 }
@@ -4895,6 +4895,24 @@ h6 {
 }
 
 .proj3_img:hover {
+  border-radius: 5%;
+  transform: scale(1.2);
+  z-index: 2;
+  transition: 0.3s; 
+
+}
+
+
+.proj4_img img {
+  border-radius: 3%;
+  width: 100%;
+  height: 550px;
+  transition: 0.3s;
+  margin-bottom: 20px;
+
+}
+
+.proj4_img:hover {
   border-radius: 5%;
   transform: scale(1.2);
   z-index: 2;

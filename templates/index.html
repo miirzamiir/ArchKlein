@@ -1,31 +1,31 @@
 <!doctype html>
 <html lang="en">
-
+{% load static %}
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>ArchKlein</title>
-    <link rel="icon" href="img/favicon.png">
+    <link rel="icon" href="{% static 'img/favicon.PNG' %}">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
     <!-- animate CSS -->
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}">
     <!-- owl carousel CSS -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
     <!-- themify CSS -->
-    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="{% static 'css/themify-icons.css' %}">
     <!-- flaticon CSS -->
-    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="{% static 'css/flaticon.css' %}">
     <!-- font awesome CSS -->
-    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
     <!-- swiper CSS -->
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/gijgo.min.css">
-    <link rel="stylesheet" href="css/nice-select.css">
-    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="{% static 'css/slick.css' %}">
+    <link rel="stylesheet" href="{% static 'css/gijgo.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/nice-select.css' %}">
+    <link rel="stylesheet" href="{% static 'css/all.css' %}">
     <!-- style CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 
 <body>
@@ -35,7 +35,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-12">
                     <nav class="navbar navbar-expand-lg navbar-light">
-                        <a class="navbar-brand" href="#"> <img src="img/logo.png" alt="logo" style="width: 75%; height: 75%"> </a>
+                        <a class="navbar-brand" href="#"> <img src="{% static 'img/logo.png' %}" alt="logo" style="width: 75%; height: 75%"> </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
@@ -119,16 +119,16 @@
         <div class="container">
             <h4 class="proj_title">projects</h4>
             <div class="row align-items-center">
-                <div class="col-lg-4 proj1_img"> <img src="img/1/1-1.JPG"/> </div>
-                <div class="col-lg-4 proj1_img"> <img src="img/1/1-2.JPG"/> </div>
-                <div class="col-lg-4 proj1_img"> <img src="img/1/1-3.JPG"/> </div>
+                <div class="col-lg-4 proj1_img"> <img src="{% static 'img/1/1-1.JPG' %}"/> </div>
+                <div class="col-lg-4 proj1_img"> <img src="{% static 'img/1/1-2.JPG' %}"/> </div>
+                <div class="col-lg-4 proj1_img"> <img src="{% static 'img/1/1-3.JPG' %}"/> </div>
                 <p class="proj1_text">
                     Experience the future of architecture where innovation meets sustainability. This cutting-edge building leverages artificial intelligence to optimize energy use, reducing carbon footprint while maintaining comfort and efficiency. A beacon of smart design for a greener tomorrow.
                 </p>
             </div>
             <div class="line"></div>
             <div class="row align-items-center">
-                <div class="col-lg-4 proj2_img"><img src="img/2/2-1.JPG"/></div>
+                <div class="col-lg-4 proj2_img"><img src="{% static 'img/2/2-1.JPG' %}"/></div>
                 <div class="col-lg-8"> 
                     <p class="proj1_text">
                         Where industrial meets innovation: this building combines raw materials and sleek modern design to create a space that's both functional and artistically inspiring. A true testament to the beauty of industrial aesthetics reimagined for contemporary living.
@@ -137,26 +137,26 @@
             </div>
             <div class="line"></div>
             <div class="row align-items-center">
-                <div class="col-lg-3 proj3_img "> <img src="img/3/3-1.JPG"/> </div>
-                <div class="col-lg-3 proj3_img even"> <img src="img/3/3-2.JPG"/> </div>
-                <div class="col-lg-3 proj3_img "> <img src="img/3/3-3.JPG"/> </div>
-                <div class="col-lg-3 proj3_img even"> <img src="img/3/3-4.JPG"/> </div>
+                <div class="col-lg-3 proj3_img "> <img src="{% static 'img/3/3-1.JPG' %}"/> </div>
+                <div class="col-lg-3 proj3_img even"> <img src="{% static 'img/3/3-2.JPG' %}"/> </div>
+                <div class="col-lg-3 proj3_img "> <img src="{% static 'img/3/3-3.JPG' %}"/> </div>
+                <div class="col-lg-3 proj3_img even"> <img src="{% static 'img/3/3-4.JPG' %}"/> </div>
                 <p class="proj1_text">
                     Discover a unique oasis where Mediterranean charm meets industrial edge and modern sophistication. This boutique hotel on the island offers a captivating fusion of styles, creating a one-of-a-kind retreat that's as visually stunning as it is welcoming.      
                 </p>
             </div>
             <div class="line"></div>
             <div class="row align-items-center">
-                <div class="col-lg-4 proj3_img "> <img src="img/4/4-1.JPG"/> </div>
-                <div class="col-lg-4 proj3_img even"> <img src="img/4/4-2.JPG"/> </div>
-                <div class="col-lg-4 proj3_img even"> <img src="img/4/4-4.JPG"/> </div>
+                <div class="col-lg-4 proj4_img "> <img src="{% static 'img/4/4-1.JPG' %}"/> </div>
+                <div class="col-lg-4 proj4_img even"> <img src="{% static 'img/4/4-2.JPG' %}"/> </div>
+                <div class="col-lg-4 proj4_img even"> <img src="{% static 'img/4/4-4.JPG' %}"/> </div>
                 <p class="proj1_text">
                     Simplicity meets elegance in this modern loft, where minimalist design creates an open, airy space. Clean lines, sleek finishes, and a subdued color palette make this loft a tranquil retreat in the heart of the city.    
                 </p>
             </div>
             <div class="line"></div>
             <div class="row align-items-center">
-                <div class="col-lg-4 proj5_img"><img src="img/5/5-1.JPG"/></div>
+                <div class="col-lg-4 proj5_img"><img src="{% static 'img/5/5-1.JPG' %}"/></div>
                 <div class="col-lg-8"> 
                     <p class="proj1_text">
                         The ultimate blend of productivity and inspiration. This modern shared workplace and library offers a collaborative environment where creativity flows freely. With sleek design and a wealth of resources, it's the perfect setting to work, learn, and connect.    
@@ -178,9 +178,9 @@
               </div>
            </div>
            <div class="row">
-              <div class="col-lg-4 foot_img"> <img src="img/single/single1.JPG"/> </div>
-              <div class="col-lg-4 foot_img"> <img src="img/single/single2.JPG"/> </div>
-              <div class="col-lg-4 foot_img"> <img src="img/single/single3.JPG"/> </div>
+              <div class="col-lg-4 foot_img"> <img src="{% static 'img/single/single1.JPG' %}"/> </div>
+              <div class="col-lg-4 foot_img"> <img src="{% static 'img/single/single2.JPG' %}"/> </div>
+              <div class="col-lg-4 foot_img"> <img src="{% static 'img/single/single3.JPG' %}"/> </div>
            </div>
         </div>
 
@@ -200,11 +200,9 @@
                  <div class="col-lg-6">
                      <div class="footer_text">
                          
-                         <p style="font-weight: bolder;">FOR INVESTMENT: </p><h4>partnerships@archklein.com</h4>  
-                         <p style="font-weight: bolder;">FOR INFORMATION: </p><h4>careers@archklein.com </h4> 
-                         <p style="font-weight: bolder;">FOR CLIENTS: </p><h4>clients@archklein.com </h4>   
-                         <hr style="color: white;"/>
-                         <a href="#"><img src="img/elements/whatsapp.png"/>
+                         <p style="font-weight: bolder;">FOR INVESTMENT AND INFORMATION: </p><h4>info@archklein.com</h4>  
+                         
+                         <a href="https://wa.me/00989124498688" > <img src="{% static 'img/elements/whatsapp.png' %}"/>
                              
                              <span style="color: white; font-weight: bolder; font-size: 20px;"> 00989124498688</span>
                          </a>
@@ -214,7 +212,7 @@
                  
                  <div class="col-lg-6">
                      <div class="footer_menu">
-                         <img id="logo" src="img/footer_logo.PNG"/>
+                         <img id="logo" src="{% static 'img/footer_logo.PNG' %}"/>
                      </div>
                  </div>
                  
@@ -225,21 +223,21 @@
      <!-- footer css end -->
 
     <!-- jquery plugins here-->
-    <script src="js/jquery-1.12.1.min.js"></script>
+    <script src="{% static 'js/jquery-1.12.1.min.js' %}"></script>
     <!-- popper js -->
-    <script src="js/popper.min.js"></script>
+    <script src="{% static 'js/popper.min.js' %}"></script>
     <!-- bootstrap js -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
     <!-- easing js -->
-    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="{% static 'js/jquery.magnific-popup.js' %}"></script>
     <!-- masonry js -->
-    <script src="js/masonry.pkgd.js"></script>
+    <script src="{% static 'js/masonry.pkgd.js' %}"></script>
     <!-- particles js -->
-    <script src="js/owl.carousel.min.js"></script>
+    <script src="{% static 'js/owl.carousel.min.js' %}"></script>
 
-    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="{% static 'js/jquery.nice-select.min.js' %}"></script>
     <!-- custom js -->
-    <script src="js/custom.js"></script>
+    <script src="{% static 'js/custom.js' %}"></script>
 </body>
 
 </html>
