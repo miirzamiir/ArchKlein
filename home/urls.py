@@ -1,6 +1,6 @@
 from django.urls import path
-import views
+from . import views
 
-urlspatterns = [
+urlpatterns = [
     path('', views.landing, name='landing')
 ]
