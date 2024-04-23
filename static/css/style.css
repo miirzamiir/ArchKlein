@@ -4736,6 +4736,19 @@ h6 {
   transform: scale(1.2);
 }
 
+@media (max-width: 991px) {
+  /* line 68, /Applications/MAMP/htdocs/palash/cl/july 2019/july/195 Resume/195 resume html/sass/_footer.scss */
+  #logo {
+    text-align: center;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+  
+  }
+}
+
+
 /* line 79, /Applications/MAMP/htdocs/palash/cl/july 2019/july/195 Resume/195 resume html/sass/_footer.scss */
 .footer_Part .copyright_part {
   padding: 140px 0 40px;
